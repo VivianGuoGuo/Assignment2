@@ -36,7 +36,12 @@ var delelte=document.createElement('button1');
 
 
 
+//get input text
+  liText.addEventListener('click' , function(){
+    var todoPrompt=prompt("What is your to do ?");
+    liText.value=todoPrompt;
 
+  });
 
 // unchecked count increment text
   var uncheckedText=parseInt(uncheckedCountSpan.innerHTML)+1;
